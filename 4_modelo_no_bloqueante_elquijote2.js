@@ -12,4 +12,4 @@ var content = fs.readFile('el_quijote (1).txt','utf8', function(error,content){
 
 console.log('haciendo otra cosa')
 
-console.log(process.uptime())
+console.log(process.uptime());

@@ -8,4 +8,4 @@ console.log(content)
 
 console.log('haciendo otra cosa')
 
-console.log(process.uptime())
+console.log(process.uptime());
