@@ -2,7 +2,7 @@ var fs = require ('fs')
 
 console.log('Abriendo el archivo...')
 
-var content = fs.readFileSync('el_quijote (1).txt','utf8', function(error,content){
+var content = fs.readFile('el_quijote (1).txt','utf8', function(error,content){
 
     console.log(content)
 
